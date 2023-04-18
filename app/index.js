@@ -1,3 +1,5 @@
-import CharacterCard from "./components/CharacterCard/CharacterCard.js";
+import characters from "./Characters/Characters";
+import CharactersList from "./components/CharacterList/CharacterList";
 
-const characterCard = new CharacterCard(characterListSelected, characters);
+const appContainer = document.querySelector(".app");
+new CharactersList(appContainer, characters);
