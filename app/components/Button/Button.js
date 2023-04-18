@@ -3,8 +3,8 @@ import Component from "../Component.js";
 class Button extends Component {
   text;
 
-  constructor(parentElement, tagname, className, text) {
-    super(parentElement, tagname, className);
+  constructor(parentElement, className, text) {
+    super(parentElement, "button", className);
     this.text = text;
 
     this.renderHtml();
