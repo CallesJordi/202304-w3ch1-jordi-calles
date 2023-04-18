@@ -1,4 +1,5 @@
 import Component from "../Component";
+import CharacterCard from "../CharacterCard/CharacterCard";
 
 class CharactersList extends Component {
   characters;
