@@ -1,5 +1,5 @@
-import Component from "../Component";
-import CharacterCard from "../CharacterCard/CharacterCard";
+import CharacterCard from "../CharacterCard/CharacterCard.js";
+import Component from "../Component.js";
 
 class CharactersList extends Component {
   characters;

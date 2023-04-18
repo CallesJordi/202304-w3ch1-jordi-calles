@@ -1,5 +1,5 @@
-import Character from "../Character/Character";
-import Fighter from "../Fighter/Fighter";
+import Character from "../Character/Character.js";
+import Fighter from "../Fighter/Fighter.js";
 
 class Squire extends Character {
   kissAssLeve;
@@ -7,7 +7,7 @@ class Squire extends Character {
 
   constructor(characterData, kissAssLevel, serves) {
     super(characterData);
-    this.kissAssLevel = this.kissAssLevelFilter(kissAssLevel);
+    this.kissAssLevel = this.#kissAssLevelFilter(kissAssLevel);
 
     if (serves instanceof Fighter) {
       this.serves = serves;
