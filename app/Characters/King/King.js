@@ -1,4 +1,4 @@
-import Character from "../Character/Character";
+import Character from "../Character/Character.js";
 
 class King extends Character {
   yearsOfReign;

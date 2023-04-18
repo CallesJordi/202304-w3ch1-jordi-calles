@@ -1,4 +1,4 @@
-import Character from "../Character/Character";
+import Character from "../Character/Character.js";
 
 class Fighter extends Character {
   weapon;
@@ -7,7 +7,7 @@ class Fighter extends Character {
   constructor(characterData, weapon, dexterity) {
     super(characterData);
     this.weapon = weapon;
-    this.dexterity = this.filterDexterity(dexterity);
+    this.dexterity = this.#filterDexterity(dexterity);
   }
 
   communicate() {
